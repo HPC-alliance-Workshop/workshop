@@ -1,9 +1,10 @@
 ---
-title: Tutorial
+title: Connection
 layout: default
+nav_order: 2
 ---
 
-# Tutorial
+# Connect to Compute Canada ressources
 {: .no_toc }
 
 ## Table of contents
@@ -13,6 +14,7 @@ layout: default
 {:toc}
 
 
-## Introduction
-## Datasets
-## Steps
+## Windows
+
+
+## Linux
