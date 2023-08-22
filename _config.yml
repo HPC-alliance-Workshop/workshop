@@ -1,4 +1,5 @@
-title: Compute Canada Workshop
+
+title: Workshop
 description: 
 theme: just-the-docs
 
@@ -38,7 +39,6 @@ search:
 
 
 
-
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
@@ -63,6 +63,8 @@ kramdown:
     style: monokai # Change this to your desired style
 
 
+logo: "/assets/img/crdig.png"
+
 
 
 
@@ -82,3 +84,9 @@ callouts:
   warning:
     title: Warning
     color: red
+
+
+footer_content: "© Copyright 2023 - Centre de recherche en données et intelligence géospatiales"
+back_to_top: true
+back_to_top_text: "Back to top"
+color_scheme: nil
