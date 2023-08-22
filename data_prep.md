@@ -56,3 +56,9 @@ unzip ~/scratch/UCMerced_LandUse.zip -d ~/scratch
 The dataset is now inside `~/scratch/UCMerced_LandUse`
 
 [^1]: Yi Yang and Shawn Newsam, "Bag-Of-Visual-Words and Spatial Extensions for Land-Use Classification," ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM GIS), 2010.
+
+
+## 4. copy folder to temporary path 
+```shell
+cp -r ~/scratch/UCMerced_LandUse/ $SLURM_TMPDIR
+```
