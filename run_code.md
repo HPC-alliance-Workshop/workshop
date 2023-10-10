@@ -26,6 +26,7 @@ The model is stored in the folder `weights`. You can also see the loss and accur
 ## Run Inference
 
 ```shell
+python predict.py --dataset_path $SLURM_TMPDIR/UCMerced_LandUse --weight_path weights/model_epoch18.pth
 ```
 
 

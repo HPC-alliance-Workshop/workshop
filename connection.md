@@ -4,17 +4,18 @@ layout: default
 nav_order: 2
 ---
 
-# Connect to Compute Canada ressources
+# Connection
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
+We will work on a simulated environment similar to the alliance clusters.
+Connect using your username 
 
-1. TOC
-{:toc}
+```shell
+ssh username@ulcip.calculquebec.cloud
+```
 
+# Change your current directory to your user directory 
 
-## Windows
-
-
-## Linux
+```shell
+cd projects/def-sponsor00/user{id}/
+```
