@@ -20,7 +20,7 @@ nav_order: 4
 python train.py --dataset_path $SLURM_TMPDIR/UCMerced_LandUse
 ```
 
-The model is stored in the folder `weights`. You can also see the loss and accuracy graphs saved in the workign directory. 
+The model is stored in the folder `weights`. You can also see the loss and accuracy graphs saved in the working directory. 
 
 
 ## Run Inference
@@ -29,6 +29,6 @@ The model is stored in the folder `weights`. You can also see the loss and accur
 python predict.py --dataset_path $SLURM_TMPDIR/UCMerced_LandUse --weight_path weights/model_epoch18.pth
 ```
 
-
+The predictions are saved into `predictions.png`. 
 
 

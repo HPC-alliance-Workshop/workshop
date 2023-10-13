@@ -14,21 +14,24 @@ nav_order: 3
 {:toc}
 
 
-## Retrieve the tutorial code
+## Retrieve the tutorial code from GitHub
 
 ```shell
 git clone https://github.com/HPC-alliance-Workshop/UCMerced_classification.git
 cd UCMerced_classification
 ```
 
-## Request and check resources 
+## Request and check computing resources 
 
 ```shell
 salloc --time=01:00:00 --mem=10G --gpus=1 --account=def-sponsor00
 ```
+We have requested 10G of memory (RAM) and 1 GPU for the job for 1 hour. 
+
 ```shell
 nvidia-smi
 ```
+This command is used to display information about GPU devices on a system.
 
 ## Load necessary modules
 

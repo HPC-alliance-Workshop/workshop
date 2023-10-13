@@ -7,8 +7,8 @@ nav_order: 2
 # Connection
 {: .no_toc }
 
-We will work on a simulated environment similar to the alliance clusters.
-Connect using your username 
+We will work on a virtual platform, which is a copy of an Alliance computing system. This way, we don't need to have an Alliance account.
+Connect using your username.
 
 ```shell
 ssh username@ulcip.calculquebec.cloud
