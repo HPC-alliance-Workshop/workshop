@@ -43,7 +43,7 @@ You can download the dataset zip file [here](http://weegee.vision.ucmerced.edu/d
 
 Open a new command line on your local computer and copy the dataset from your local computer to the remote server inside the scratch directory. 
 ```shell
-scp '/path/to/UCMerced_LandUse.zip' 'user@ulcip.calculquebec.cloud:./scratch'
+scp '/path/to/UCMerced_LandUse.zip' 'user@laval-crdig.calculquebec.cloud:./scratch'
 ```
 Once it's done close the newly opened terminal and go back to the terminal where you are connected the remote server. 
 Copy the dataset to the temporary directory associated with your Slurm job.
