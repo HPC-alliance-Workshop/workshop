@@ -11,7 +11,7 @@ We will work on a virtual platform, which is a copy of an Alliance computing sys
 Connect using your username.
 
 ```shell
-ssh username@ulcip.calculquebec.cloud
+ssh username@laval-crdig.calculquebec.cloud
 ```
 
 # Change your current directory to your user directory 
