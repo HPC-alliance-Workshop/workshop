@@ -14,10 +14,10 @@ nav_order: 3
 {:toc}
 
 
-## Retrieve the tutorial code from GitHub
+## Retrieve the tutorial code
 
 ```shell
-git clone https://github.com/HPC-alliance-Workshop/UCMerced_classification.git
+cp -r ../UCMerced_classification/ .
 cd UCMerced_classification
 ```
 
