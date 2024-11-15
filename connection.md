@@ -14,7 +14,7 @@ Got to [https://mokey.laval-crdig.calculquebec.cloud/](https://mokey.laval-crdig
 {: .no_toc }
 
 We will work on a virtual platform, which is a copy of an Alliance computing system.
-Connect using your username and password.
+Open a Command prompt and connect using your username and password by typing :
 
 ```shell
 ssh username@laval-crdig.calculquebec.cloud
