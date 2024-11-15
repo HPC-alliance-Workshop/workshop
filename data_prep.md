@@ -39,8 +39,6 @@ You can download the dataset zip file [here](http://weegee.vision.ucmerced.edu/d
 ## 3. Transfer and unzip the dataset 
 
 
-### Linux
-
 Open a new command line on your local computer and copy the dataset from your local computer to the remote server inside the scratch directory. 
 ```shell
 scp '/path/to/UCMerced_LandUse.zip' 'user@laval-crdig.calculquebec.cloud:./scratch'
